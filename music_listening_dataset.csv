@@ -299,7 +299,7 @@ Age	Listening_Hours	Preferred_Time	Mood	Device	Favorite_Genre
 36	0.6	Night	Sad	Smart Speaker	Pop		
 41	0.8	Night	Sad	Laptop	Pop		
 47	3.8	Afternoon	Energetic	Smart Speaker	Hip-Hop		
-							
+Age,Listening_Hours,Preferred_Time,Mood,Device,Favorite_Genre							
 							
 							
 							

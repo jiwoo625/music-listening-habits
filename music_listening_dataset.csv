@@ -1,241 +1,305 @@
 Age	Listening_Hours	Preferred_Time	Mood	Device	Favorite_Genre		
-55	4.8	Afternoon	Relaxed	Laptop	Classical		
-49	4.5	Morning	Focused	Smart Speaker	Pop		
-20	3.2	Morning	Focused	Laptop	Classical		
-49	4.7	Night	Relaxed	Smart Speaker	Jazz		
-15	2.9	Night	Sad	Tablet	Pop		
-36	1.9	Morning	Happy	Smart Speaker	Pop		
-37	0.5	Night	Focused	Smartphone	K-Pop		
-39	1.0	Morning	Focused	Tablet	K-Pop		
-54	3.9	Afternoon	Happy	Smartphone	Jazz		
-33	1.8	Morning	Relaxed	Smartphone	Rock		
-44	1.8	Evening	Sad	Laptop	Jazz		
-19	1.7	Afternoon	Focused	Laptop	Pop		
-39	2.3	Afternoon	Sad	Smartphone	Pop		
-17	6.4	Evening	Energetic	Tablet	Pop		
-51	3.8	Night	Energetic	Smart Speaker	Pop		
-23	1.8	Afternoon	Focused	Tablet	Classical		
-42	4.1	Afternoon	Relaxed	Smart Speaker	Pop		
-18	1.8	Morning	Relaxed	Laptop	Classical		
-42	1.5	Night	Focused	Tablet	K-Pop		
-15	1.9	Morning	Focused	Tablet	Classical		
-36	4.1	Night	Happy	Tablet	K-Pop		
-26	3.9	Morning	Sad	Laptop	Pop		
-25	0.2	Morning	Focused	Tablet	Hip-Hop		
-22	2.1	Evening	Sad	Laptop	Pop		
-51	3.4	Night	Happy	Laptop	Pop		
-45	2.6	Afternoon	Sad	Smart Speaker	K-Pop		
-49	2.9	Evening	Energetic	Tablet	Rock		
-48	0.4	Night	Happy	Laptop	Pop		
-36	4.8	Afternoon	Happy	Smartphone	Jazz		
-18	3.1	Afternoon	Happy	Smartphone	K-Pop		
-19	1.5	Night	Relaxed	Laptop	Classical		
-51	2.7	Night	Relaxed	Smart Speaker	Classical		
-27	4.7	Evening	Energetic	Smart Speaker	Rock		
-18	4.1	Morning	Happy	Smart Speaker	Classical		
-21	2.8	Night	Relaxed	Smart Speaker	Pop		
-44	3.8	Afternoon	Happy	Smart Speaker	Classical		
-50	4.7	Morning	Happy	Laptop	Pop		
-46	4.1	Night	Relaxed	Smart Speaker	K-Pop		
-25	0.2	Evening	Energetic	Tablet	Rock		
-50	6.0	Night	Relaxed	Laptop	Rock		
-18	1.0	Evening	Happy	Smartphone	Hip-Hop		
-47	1.8	Afternoon	Happy	Smartphone	K-Pop		
-19	0.8	Afternoon	Energetic	Smartphone	K-Pop		
-51	1.5	Afternoon	Focused	Smartphone	Hip-Hop		
-41	1.7	Evening	Sad	Laptop	Jazz		
-35	1.1	Afternoon	Sad	Smart Speaker	Pop		
-34	0.2	Morning	Happy	Smart Speaker	Hip-Hop		
-51	3.8	Morning	Happy	Laptop	Hip-Hop		
-23	5.8	Afternoon	Sad	Tablet	Pop		
-49	1.5	Evening	Focused	Smartphone	Jazz		
-50	2.1	Afternoon	Sad	Smartphone	K-Pop		
-50	5.0	Afternoon	Sad	Tablet	Hip-Hop		
-36	3.5	Evening	Focused	Smart Speaker	Pop		
-18	5.0	Morning	Energetic	Tablet	Pop		
-36	3.1	Evening	Relaxed	Smart Speaker	Hip-Hop		
-42	0.5	Morning	Happy	Smartphone	K-Pop		
-24	0.2	Afternoon	Energetic	Laptop	Pop		
-38	1.9	Morning	Sad	Laptop	Jazz		
-21	1.6	Night	Focused	Laptop	K-Pop		
-30	4.4	Afternoon	Relaxed	Smart Speaker	Pop		
-36	3.1	Afternoon	Sad	Laptop	Classical		
-21	1.2	Night	Happy	Smart Speaker	Pop		
-44	1.1	Afternoon	Relaxed	Smartphone	Jazz		
-40	5.2	Evening	Sad	Smartphone	K-Pop		
-32	1.7	Evening	Happy	Smartphone	K-Pop		
-31	4.3	Afternoon	Focused	Tablet	Pop		
-53	0.4	Evening	Energetic	Smartphone	Rock		
-51	3.8	Afternoon	Sad	Smartphone	Jazz		
-15	0.2	Afternoon	Sad	Smart Speaker	Pop		
-36	2.4	Evening	Happy	Tablet	Hip-Hop		
-41	1.7	Afternoon	Relaxed	Smart Speaker	Jazz		
-39	5.0	Afternoon	Focused	Tablet	Rock		
-15	2.4	Evening	Energetic	Smart Speaker	Rock		
-28	3.8	Night	Relaxed	Smartphone	Rock		
-55	2.3	Afternoon	Sad	Laptop	Classical		
-24	2.3	Morning	Happy	Laptop	K-Pop		
-54	3.2	Night	Focused	Laptop	Jazz		
-39	2.3	Night	Energetic	Laptop	Pop		
-15	5.3	Morning	Energetic	Laptop	Pop		
-48	0.8	Night	Happy	Laptop	K-Pop		
-22	0.2	Evening	Energetic	Smart Speaker	K-Pop		
-50	3.6	Night	Relaxed	Smart Speaker	Hip-Hop		
-30	3.5	Night	Relaxed	Tablet	Hip-Hop		
-33	1.7	Afternoon	Sad	Tablet	Rock		
-49	3.6	Night	Relaxed	Laptop	Pop		
-41	3.2	Evening	Focused	Smart Speaker	Rock		
-28	3.6	Morning	Focused	Smart Speaker	Rock		
-37	1.4	Evening	Energetic	Smart Speaker	Hip-Hop		
-49	3.9	Night	Relaxed	Tablet	Hip-Hop		
-16	0.2	Night	Sad	Smart Speaker	Classical		
-44	6.7	Morning	Energetic	Smartphone	Pop		
-42	0.6	Afternoon	Energetic	Laptop	Pop		
-39	2.0	Evening	Energetic	Tablet	Jazz		
-41	4.4	Evening	Happy	Smart Speaker	Pop		
-49	6.5	Afternoon	Happy	Smartphone	Classical		
-30	4.1	Afternoon	Happy	Laptop	Pop		
-45	1.8	Afternoon	Energetic	Tablet	Jazz		
-25	1.0	Morning	Relaxed	Tablet	Pop		
-16	4.7	Night	Energetic	Laptop	Pop		
-55	1.9	Afternoon	Happy	Tablet	K-Pop		
-53	3.8	Morning	Sad	Smart Speaker	Jazz		
-19	0.2	Evening	Happy	Smart Speaker	K-Pop		
-21	1.4	Night	Relaxed	Smart Speaker	Pop		
-48	3.4	Evening	Focused	Smart Speaker	Rock		
-52	2.4	Morning	Sad	Smart Speaker	Pop		
-44	5.9	Night	Sad	Smartphone	Hip-Hop		
-35	3.3	Evening	Sad	Tablet	K-Pop		
-32	3.8	Morning	Focused	Laptop	Pop		
-41	0.2	Night	Energetic	Smart Speaker	Classical		
-20	3.0	Evening	Relaxed	Smart Speaker	Classical		
-34	2.0	Evening	Energetic	Tablet	Rock		
-44	1.5	Evening	Sad	Tablet	Pop		
-27	1.7	Afternoon	Relaxed	Laptop	Classical		
-32	5.2	Evening	Happy	Laptop	Pop		
-38	2.9	Afternoon	Sad	Smartphone	K-Pop		
-50	3.0	Evening	Relaxed	Smart Speaker	Pop		
-15	1.2	Night	Sad	Laptop	K-Pop		
-31	2.0	Night	Happy	Smartphone	Rock		
-19	0.6	Afternoon	Relaxed	Tablet	Pop		
-30	1.7	Morning	Focused	Smart Speaker	Hip-Hop		
-54	3.1	Night	Energetic	Tablet	K-Pop		
-42	4.7	Evening	Focused	Smartphone	Hip-Hop		
-21	3.8	Afternoon	Sad	Smartphone	Pop		
-26	2.4	Morning	Relaxed	Smartphone	Rock		
-53	2.4	Evening	Sad	Smart Speaker	Pop		
-29	2.9	Evening	Focused	Laptop	Rock		
-49	2.9	Evening	Relaxed	Smartphone	Pop		
-34	3.7	Evening	Energetic	Smartphone	Rock		
-34	1.6	Night	Energetic	Smartphone	Hip-Hop		
-42	0.2	Evening	Focused	Tablet	Pop		
-29	5.8	Morning	Sad	Smartphone	Classical		
-26	2.1	Night	Focused	Smart Speaker	K-Pop		
-26	4.5	Night	Happy	Smart Speaker	Rock		
-36	2.8	Evening	Happy	Laptop	Rock		
-46	1.9	Morning	Energetic	Smartphone	Rock		
-35	6.5	Morning	Energetic	Smartphone	Hip-Hop		
-49	2.3	Evening	Focused	Smart Speaker	Hip-Hop		
-18	2.9	Afternoon	Sad	Laptop	K-Pop		
-43	4.1	Morning	Focused	Laptop	Jazz		
-34	1.5	Morning	Focused	Smart Speaker	Pop		
-22	2.0	Afternoon	Energetic	Tablet	Hip-Hop		
-32	3.0	Night	Energetic	Smart Speaker	Rock		
-50	3.4	Afternoon	Happy	Tablet	Classical		
-41	3.6	Evening	Focused	Tablet	K-Pop		
-33	2.3	Night	Relaxed	Smart Speaker	Jazz		
-37	0.2	Evening	Focused	Smart Speaker	Rock		
-35	5.9	Afternoon	Focused	Smart Speaker	Pop		
-41	0.2	Morning	Sad	Smart Speaker	Jazz		
-39	1.0	Afternoon	Energetic	Smartphone	Pop		
-52	4.4	Evening	Happy	Smart Speaker	Pop		
-44	3.7	Afternoon	Happy	Smart Speaker	Classical		
-31	2.9	Evening	Focused	Smart Speaker	Jazz		
-36	4.7	Night	Sad	Smart Speaker	K-Pop		
-17	0.3	Morning	Relaxed	Tablet	K-Pop		
-20	2.1	Morning	Energetic	Laptop	Jazz		
-16	3.1	Morning	Sad	Smartphone	Pop		
-38	1.7	Night	Focused	Laptop	Pop		
-20	3.3	Night	Focused	Laptop	Hip-Hop		
-52	3.9	Evening	Energetic	Tablet	Hip-Hop		
-44	4.2	Evening	Focused	Laptop	Pop		
-37	4.1	Night	Sad	Smart Speaker	K-Pop		
-27	2.7	Night	Energetic	Smartphone	Pop		
-51	2.0	Evening	Happy	Smart Speaker	Pop		
-51	3.8	Morning	Focused	Smart Speaker	K-Pop		
-33	3.0	Evening	Relaxed	Laptop	Jazz		
-23	1.7	Morning	Happy	Tablet	K-Pop		
-17	0.5	Morning	Sad	Tablet	Classical		
-26	1.6	Afternoon	Relaxed	Tablet	Hip-Hop		
-32	3.4	Night	Sad	Tablet	Classical		
-44	1.7	Morning	Relaxed	Laptop	K-Pop		
-40	5.6	Evening	Happy	Smart Speaker	Pop		
-49	2.2	Morning	Energetic	Tablet	Hip-Hop		
-31	0.2	Evening	Happy	Laptop	Rock		
-54	1.3	Evening	Focused	Laptop	Jazz		
-55	4.4	Evening	Energetic	Smartphone	Pop		
-17	0.2	Evening	Energetic	Smartphone	Pop		
-49	4.0	Night	Focused	Laptop	K-Pop		
-21	4.1	Night	Focused	Smart Speaker	K-Pop		
-32	4.3	Night	Energetic	Laptop	Classical		
-21	3.1	Evening	Focused	Tablet	Pop		
-32	3.1	Night	Happy	Laptop	Jazz		
-53	3.6	Morning	Happy	Tablet	Pop		
-23	3.0	Afternoon	Focused	Laptop	K-Pop		
-29	1.7	Evening	Relaxed	Smartphone	Rock		
-24	4.8	Afternoon	Happy	Smartphone	Pop		
-37	2.6	Afternoon	Focused	Tablet	Pop		
-31	5.3	Morning	Happy	Smart Speaker	Rock		
-38	3.7	Morning	Energetic	Laptop	K-Pop		
-17	2.3	Evening	Energetic	Smartphone	Pop		
-45	0.2	Night	Energetic	Smartphone	Hip-Hop		
-43	3.4	Afternoon	Happy	Laptop	Pop		
-55	3.1	Evening	Energetic	Tablet	Rock		
-53	0.2	Morning	Focused	Laptop	Rock		
-29	4.0	Night	Sad	Smart Speaker	Rock		
-21	2.3	Evening	Sad	Laptop	Jazz		
-45	4.1	Morning	Happy	Smartphone	Pop		
-21	2.7	Afternoon	Focused	Smartphone	Hip-Hop		
-50	1.3	Evening	Happy	Smart Speaker	Rock		
-42	4.5	Evening	Focused	Tablet	Rock		
-51	0.9	Afternoon	Relaxed	Smart Speaker	Pop		
-21	1.6	Morning	Sad	Laptop	K-Pop		
-50	4.4	Morning	Focused	Tablet	Pop		
-32	2.4	Evening	Sad	Smartphone	Pop		
-24	1.5	Night	Happy	Laptop	Classical		
-16	4.4	Night	Energetic	Smart Speaker	Rock		
-38	3.9	Evening	Sad	Smartphone	K-Pop		
-24	4.0	Morning	Sad	Smart Speaker	Jazz		
-46	4.7	Night	Energetic	Tablet	Pop		
-47	4.1	Evening	Focused	Smart Speaker	Hip-Hop		
-34	3.9	Morning	Relaxed	Smart Speaker	K-Pop		
-18	4.2	Afternoon	Relaxed	Tablet	Rock		
-22	2.9	Morning	Energetic	Smart Speaker	Pop		
-39	1.7	Evening	Happy	Smart Speaker	K-Pop		
-17	2.6	Night	Happy	Smart Speaker	K-Pop		
-35	0.9	Night	Sad	Smartphone	Rock		
-35	1.8	Afternoon	Focused	Smart Speaker	K-Pop		
-38	5.4	Afternoon	Energetic	Smart Speaker	Hip-Hop		
-40	4.4	Evening	Sad	Laptop	Rock		
-25	4.8	Afternoon	Sad	Tablet	Jazz		
-24	3.8	Afternoon	Happy	Laptop	Pop		
-26	0.6	Morning	Relaxed	Smart Speaker	Hip-Hop		
-51	1.2	Night	Focused	Tablet	K-Pop		
-55	2.1	Night	Energetic	Tablet	Classical		
-52	4.4	Morning	Sad	Smartphone	Rock		
-43	4.3	Evening	Happy	Smartphone	Hip-Hop		
-47	3.2	Night	Energetic	Smartphone	Hip-Hop		
-51	2.0	Night	Focused	Laptop	K-Pop		
-43	1.7	Morning	Sad	Smartphone	Hip-Hop		
-26	5.2	Night	Focused	Laptop	Rock		
-33	3.4	Night	Energetic	Tablet	Jazz		
-18	3.4	Morning	Sad	Smartphone	Hip-Hop		
-39	0.6	Evening	Sad	Laptop	Rock		
-52	1.0	Evening	Energetic	Laptop	Hip-Hop		
-20	0.2	Evening	Focused	Smart Speaker	Jazz		
-36	3.7	Morning	Energetic	Tablet	Pop		
-34	0.6	Afternoon	Relaxed	Tablet	K-Pop		
-46	5.4	Afternoon	Happy	Tablet	K-Pop		
-21	9.7	Morning	Sad	Laptop	Hip-Hop		
-24	4.4	Afternoon	Energetic	Smartphone	Rock		
-30	5.4	Night	Focused	Tablet	Classical		
+22	2.7	Morning	Relaxed	Smart Speaker	K-Pop		
+50	6.4	Night	Focused	Smart Speaker	Pop		
+54	1.1	Evening	Happy	Smart Speaker	Pop		
+58	3.9	Evening	Relaxed	Smart Speaker	Rock		
+37	6.1	Morning	Sad	Smartphone	Hip-Hop		
+33	2.5	Afternoon	Focused	Tablet	Pop		
+60	3.1	Night	Energetic	Smartphone	Rock		
+52	4.4	Morning	Energetic	Smart Speaker	Rock		
+48	2.3	Night	Focused	Smart Speaker	Hip-Hop		
+16	4.5	Afternoon	Happy	Smartphone	Classical		
+42	3.8	Night	Relaxed	Smartphone	Jazz		
+44	5.2	Evening	Focused	Smart Speaker	Jazz		
+34	4.3	Night	Energetic	Smart Speaker	Pop		
+32	0.6	Afternoon	Focused	Smart Speaker	K-Pop		
+46	3.0	Afternoon	Sad	Smart Speaker	Hip-Hop		
+46	6.2	Morning	Sad	Tablet	Hip-Hop		
+21	3.6	Evening	Energetic	Laptop	K-Pop		
+45	7.1	Evening	Energetic	Tablet	Pop		
+41	1.5	Morning	Happy	Smartphone	Hip-Hop		
+49	7.0	Morning	Focused	Laptop	Pop		
+54	0.8	Evening	Sad	Laptop	Pop		
+57	4.6	Night	Relaxed	Laptop	Hip-Hop		
+23	7.2	Evening	Happy	Smart Speaker	Classical		
+23	6.0	Evening	Focused	Smart Speaker	Rock		
+24	4.1	Afternoon	Energetic	Smartphone	K-Pop		
+39	6.7	Morning	Sad	Tablet	K-Pop		
+16	0.7	Night	Sad	Tablet	Hip-Hop		
+22	4.0	Night	Focused	Laptop	Pop		
+48	1.9	Evening	Energetic	Laptop	Jazz		
+19	4.3	Morning	Relaxed	Laptop	Pop		
+49	7.0	Morning	Energetic	Laptop	Hip-Hop		
+58	6.6	Afternoon	Focused	Laptop	Classical		
+48	6.8	Afternoon	Relaxed	Laptop	Hip-Hop		
+42	4.2	Morning	Energetic	Tablet	Pop		
+26	2.3	Night	Energetic	Tablet	Hip-Hop		
+35	4.1	Night	Happy	Tablet	K-Pop		
+28	2.1	Morning	Energetic	Tablet	Rock		
+57	1.8	Morning	Sad	Laptop	Rock		
+58	4.5	Afternoon	Happy	Tablet	Hip-Hop		
+51	5.6	Evening	Focused	Tablet	Jazz		
+23	1.2	Evening	Happy	Smart Speaker	Pop		
+58	0.9	Evening	Relaxed	Smartphone	Hip-Hop		
+32	4.6	Morning	Sad	Tablet	Pop		
+31	0.9	Night	Sad	Smart Speaker	K-Pop		
+18	1.2	Morning	Sad	Smartphone	Pop		
+50	4.5	Evening	Sad	Smart Speaker	Jazz		
+56	5.5	Morning	Energetic	Tablet	Hip-Hop		
+53	3.7	Morning	Sad	Tablet	Rock		
+37	0.9	Night	Happy	Tablet	Jazz		
+33	5.6	Morning	Sad	Smart Speaker	Rock		
+16	4.3	Evening	Relaxed	Smartphone	Classical		
+22	1.6	Morning	Happy	Smartphone	Pop		
+37	4.7	Evening	Happy	Smart Speaker	Hip-Hop		
+37	3.4	Night	Relaxed	Smart Speaker	Jazz		
+23	1.8	Morning	Focused	Smart Speaker	K-Pop		
+24	2.1	Morning	Sad	Smart Speaker	Rock		
+35	1.5	Morning	Relaxed	Smartphone	Jazz		
+47	6.2	Evening	Focused	Tablet	Pop		
+15	4.9	Afternoon	Energetic	Smartphone	K-Pop		
+58	4.1	Afternoon	Energetic	Tablet	K-Pop		
+29	4.4	Evening	Sad	Laptop	Rock		
+44	5.0	Night	Focused	Tablet	Pop		
+55	3.4	Night	Happy	Tablet	K-Pop		
+48	5.4	Morning	Relaxed	Smartphone	Rock		
+49	5.6	Afternoon	Happy	Smartphone	Hip-Hop		
+59	4.6	Morning	Energetic	Smart Speaker	Hip-Hop		
+48	6.2	Afternoon	Focused	Smartphone	Pop		
+39	2.8	Evening	Sad	Smartphone	Classical		
+57	6.0	Afternoon	Sad	Tablet	Hip-Hop		
+37	1.4	Night	Relaxed	Smartphone	K-Pop		
+56	3.9	Night	Sad	Laptop	Jazz		
+16	1.8	Afternoon	Relaxed	Smartphone	K-Pop		
+47	5.2	Morning	Sad	Smartphone	Rock		
+28	4.2	Afternoon	Relaxed	Smartphone	K-Pop		
+46	1.3	Morning	Energetic	Tablet	Hip-Hop		
+56	1.3	Night	Energetic	Smartphone	Hip-Hop		
+30	6.3	Night	Focused	Tablet	Pop		
+20	6.2	Evening	Sad	Laptop	Pop		
+42	4.0	Evening	Sad	Smart Speaker	Rock		
+26	1.9	Night	Relaxed	Tablet	Classical		
+37	3.4	Night	Relaxed	Laptop	Hip-Hop		
+51	5.1	Afternoon	Energetic	Tablet	Rock		
+22	2.7	Night	Sad	Laptop	Jazz		
+32	2.1	Afternoon	Focused	Smartphone	Pop		
+51	3.7	Night	Energetic	Smartphone	Hip-Hop		
+36	5.2	Evening	Happy	Smart Speaker	K-Pop		
+55	7.2	Afternoon	Energetic	Tablet	Hip-Hop		
+18	7.0	Afternoon	Happy	Tablet	Jazz		
+31	1.4	Night	Energetic	Smart Speaker	Rock		
+17	5.8	Morning	Sad	Tablet	Pop		
+28	6.0	Evening	Focused	Tablet	Pop		
+59	1.8	Morning	Happy	Laptop	Rock		
+29	7.1	Afternoon	Focused	Laptop	Jazz		
+20	4.5	Afternoon	Happy	Smartphone	Pop		
+41	0.8	Afternoon	Energetic	Tablet	Rock		
+35	4.7	Evening	Energetic	Tablet	K-Pop		
+17	5.0	Afternoon	Happy	Smart Speaker	K-Pop		
+31	6.4	Night	Relaxed	Tablet	Rock		
+40	2.6	Morning	Energetic	Smartphone	Jazz		
+56	5.1	Evening	Energetic	Smartphone	K-Pop		
+48	4.7	Night	Sad	Tablet	Rock		
+19	7.4	Afternoon	Sad	Smart Speaker	Jazz		
+53	7.4	Morning	Energetic	Laptop	Pop		
+47	6.5	Afternoon	Focused	Laptop	Classical		
+32	5.9	Night	Relaxed	Tablet	Rock		
+56	3.2	Afternoon	Relaxed	Laptop	Classical		
+23	6.1	Morning	Happy	Tablet	K-Pop		
+26	1.5	Evening	Relaxed	Smart Speaker	Pop		
+59	0.9	Afternoon	Relaxed	Smart Speaker	Jazz		
+46	6.9	Morning	Sad	Laptop	Hip-Hop		
+49	1.1	Night	Relaxed	Tablet	Pop		
+47	0.8	Morning	Happy	Smartphone	Rock		
+60	5.4	Evening	Sad	Smartphone	Pop		
+27	6.6	Morning	Energetic	Smart Speaker	Pop		
+25	2.2	Night	Relaxed	Tablet	Pop		
+42	5.5	Night	Sad	Laptop	K-Pop		
+55	5.7	Night	Happy	Laptop	Classical		
+22	5.8	Evening	Focused	Laptop	Pop		
+28	5.0	Afternoon	Energetic	Smartphone	Hip-Hop		
+24	5.0	Evening	Sad	Tablet	Rock		
+45	4.1	Evening	Sad	Smart Speaker	K-Pop		
+21	6.1	Afternoon	Sad	Smart Speaker	Rock		
+55	4.7	Evening	Sad	Smartphone	Hip-Hop		
+37	4.3	Morning	Sad	Tablet	Pop		
+52	0.8	Night	Focused	Smartphone	Rock		
+56	6.1	Night	Focused	Smart Speaker	Hip-Hop		
+24	6.8	Afternoon	Happy	Smartphone	Rock		
+25	4.2	Evening	Happy	Smartphone	Classical		
+19	5.8	Morning	Sad	Laptop	Rock		
+45	2.2	Night	Relaxed	Smart Speaker	Rock		
+35	3.4	Night	Relaxed	Laptop	Hip-Hop		
+22	4.6	Night	Energetic	Smartphone	Hip-Hop		
+28	3.2	Morning	Focused	Smart Speaker	Classical		
+33	2.2	Evening	Sad	Smart Speaker	K-Pop		
+52	0.7	Afternoon	Focused	Smartphone	Hip-Hop		
+28	4.6	Afternoon	Energetic	Smart Speaker	Classical		
+21	6.1	Night	Energetic	Smartphone	Rock		
+18	2.3	Afternoon	Focused	Tablet	K-Pop		
+20	2.3	Morning	Relaxed	Smartphone	K-Pop		
+50	5.2	Evening	Energetic	Smartphone	K-Pop		
+27	5.1	Night	Happy	Tablet	Pop		
+56	1.0	Afternoon	Happy	Tablet	Jazz		
+17	3.8	Evening	Happy	Laptop	Hip-Hop		
+48	4.6	Afternoon	Energetic	Smartphone	Hip-Hop		
+29	4.3	Night	Happy	Laptop	Pop		
+41	3.2	Morning	Energetic	Laptop	Pop		
+25	4.4	Evening	Energetic	Tablet	K-Pop		
+56	1.7	Morning	Happy	Tablet	Pop		
+23	7.4	Afternoon	Energetic	Laptop	Jazz		
+35	1.7	Morning	Relaxed	Smartphone	Classical		
+20	7.3	Night	Energetic	Tablet	Hip-Hop		
+37	1.1	Morning	Sad	Laptop	Pop		
+30	7.1	Afternoon	Sad	Smartphone	K-Pop		
+36	6.9	Afternoon	Energetic	Smartphone	Rock		
+45	5.8	Afternoon	Focused	Smart Speaker	Pop		
+23	0.5	Evening	Relaxed	Smart Speaker	K-Pop		
+16	3.6	Evening	Relaxed	Smart Speaker	Classical		
+15	3.6	Morning	Happy	Laptop	K-Pop		
+43	6.2	Night	Sad	Smart Speaker	Classical		
+34	2.3	Night	Energetic	Tablet	K-Pop		
+25	1.2	Morning	Relaxed	Laptop	K-Pop		
+33	5.5	Night	Relaxed	Tablet	Pop		
+21	2.1	Afternoon	Focused	Tablet	Jazz		
+40	2.0	Evening	Focused	Smart Speaker	Jazz		
+37	6.6	Night	Relaxed	Laptop	Jazz		
+17	5.6	Afternoon	Sad	Laptop	K-Pop		
+57	4.6	Night	Energetic	Smart Speaker	Jazz		
+54	2.6	Morning	Focused	Tablet	Hip-Hop		
+41	2.1	Evening	Focused	Tablet	K-Pop		
+37	5.8	Afternoon	Happy	Smart Speaker	Hip-Hop		
+39	4.9	Evening	Relaxed	Smart Speaker	Rock		
+16	1.2	Afternoon	Relaxed	Smart Speaker	Jazz		
+45	7.5	Afternoon	Energetic	Laptop	Rock		
+49	1.1	Morning	Happy	Laptop	Rock		
+44	4.7	Morning	Energetic	Laptop	Rock		
+15	1.2	Morning	Sad	Laptop	Hip-Hop		
+41	1.2	Morning	Relaxed	Smart Speaker	Rock		
+26	1.4	Evening	Relaxed	Laptop	Hip-Hop		
+21	6.9	Night	Relaxed	Smartphone	Pop		
+44	3.5	Morning	Energetic	Smart Speaker	Pop		
+45	3.0	Morning	Happy	Smart Speaker	Pop		
+55	1.0	Afternoon	Energetic	Smartphone	Rock		
+25	0.6	Afternoon	Focused	Tablet	Pop		
+42	6.0	Afternoon	Sad	Smartphone	Rock		
+55	1.1	Evening	Sad	Smart Speaker	K-Pop		
+52	2.7	Afternoon	Focused	Smart Speaker	Pop		
+50	4.8	Night	Sad	Smart Speaker	Classical		
+31	2.0	Night	Relaxed	Tablet	Classical		
+34	7.2	Evening	Happy	Laptop	Pop		
+27	4.7	Evening	Sad	Smartphone	Jazz		
+40	5.0	Night	Focused	Smart Speaker	Jazz		
+38	6.6	Night	Energetic	Tablet	Hip-Hop		
+37	0.6	Evening	Energetic	Tablet	Classical		
+45	0.6	Night	Energetic	Smartphone	Hip-Hop		
+60	2.6	Morning	Happy	Tablet	Rock		
+39	2.6	Evening	Happy	Laptop	Pop		
+19	2.1	Morning	Sad	Smart Speaker	Pop		
+54	4.3	Morning	Sad	Laptop	Pop		
+41	2.1	Morning	Happy	Smartphone	K-Pop		
+39	0.8	Night	Focused	Smartphone	Classical		
+33	3.4	Evening	Focused	Smart Speaker	Pop		
+18	3.4	Afternoon	Sad	Laptop	Jazz		
+60	0.8	Night	Focused	Smart Speaker	K-Pop		
+43	4.9	Afternoon	Happy	Tablet	Classical		
+21	6.1	Night	Relaxed	Tablet	K-Pop		
+44	4.2	Afternoon	Relaxed	Tablet	Pop		
+59	2.6	Morning	Relaxed	Smart Speaker	Hip-Hop		
+38	3.2	Morning	Happy	Tablet	Hip-Hop		
+20	2.4	Afternoon	Relaxed	Tablet	Rock		
+34	4.3	Morning	Focused	Smartphone	Jazz		
+44	4.4	Afternoon	Relaxed	Laptop	Pop		
+31	5.3	Night	Sad	Smart Speaker	Rock		
+27	5.8	Evening	Energetic	Smartphone	K-Pop		
+53	1.4	Evening	Focused	Smartphone	K-Pop		
+37	6.4	Afternoon	Sad	Smart Speaker	Jazz		
+17	6.9	Afternoon	Sad	Smart Speaker	Rock		
+60	1.2	Evening	Happy	Tablet	K-Pop		
+41	1.0	Evening	Sad	Tablet	Pop		
+59	6.9	Morning	Happy	Tablet	Classical		
+20	6.6	Afternoon	Focused	Smartphone	Pop		
+35	1.9	Evening	Happy	Tablet	Hip-Hop		
+48	6.4	Evening	Focused	Laptop	Pop		
+58	4.5	Night	Energetic	Smart Speaker	Pop		
+56	2.9	Evening	Relaxed	Tablet	Jazz		
+48	2.9	Night	Focused	Smartphone	Jazz		
+16	3.5	Morning	Focused	Smartphone	Hip-Hop		
+57	3.8	Morning	Sad	Smartphone	Pop		
+30	3.5	Afternoon	Sad	Laptop	Hip-Hop		
+58	0.6	Morning	Focused	Smart Speaker	Rock		
+40	6.8	Afternoon	Relaxed	Tablet	Pop		
+42	2.5	Night	Focused	Smart Speaker	Pop		
+40	3.1	Evening	Relaxed	Smart Speaker	Rock		
+35	7.3	Afternoon	Sad	Smartphone	K-Pop		
+32	1.8	Night	Relaxed	Laptop	Classical		
+29	7.0	Night	Energetic	Smart Speaker	Pop		
+32	6.5	Evening	Happy	Smartphone	Pop		
+44	2.9	Morning	Energetic	Smart Speaker	Jazz		
+41	1.1	Evening	Happy	Smartphone	Hip-Hop		
+23	2.2	Evening	Focused	Tablet	K-Pop		
+31	4.8	Evening	Happy	Tablet	K-Pop		
+51	7.0	Night	Sad	Smart Speaker	K-Pop		
+60	7.5	Morning	Focused	Laptop	Pop		
+32	3.3	Afternoon	Energetic	Smartphone	Hip-Hop		
+40	5.8	Morning	Focused	Smartphone	Pop		
+16	7.4	Morning	Sad	Laptop	Pop		
+46	0.9	Morning	Focused	Smartphone	Rock		
+18	1.9	Afternoon	Energetic	Laptop	K-Pop		
+17	3.1	Morning	Relaxed	Smartphone	Rock		
+47	3.8	Morning	Energetic	Smart Speaker	K-Pop		
+21	2.6	Afternoon	Sad	Smartphone	Pop		
+26	0.7	Afternoon	Happy	Smartphone	K-Pop		
+15	4.9	Morning	Happy	Tablet	Pop		
+27	5.8	Morning	Energetic	Smart Speaker	Pop		
+37	1.7	Afternoon	Happy	Smartphone	K-Pop		
+23	3.4	Morning	Focused	Smartphone	K-Pop		
+53	6.5	Night	Energetic	Smartphone	K-Pop		
+46	4.7	Afternoon	Focused	Laptop	Pop		
+47	1.0	Afternoon	Relaxed	Smart Speaker	Pop		
+23	7.4	Morning	Focused	Smart Speaker	Pop		
+50	6.6	Afternoon	Focused	Smartphone	K-Pop		
+46	7.0	Night	Energetic	Tablet	Rock		
+49	6.8	Morning	Energetic	Smart Speaker	K-Pop		
+29	6.2	Morning	Energetic	Smart Speaker	Rock		
+48	1.5	Evening	Focused	Smart Speaker	Pop		
+50	5.6	Afternoon	Sad	Smartphone	Hip-Hop		
+58	7.4	Afternoon	Energetic	Tablet	Pop		
+41	3.3	Afternoon	Focused	Laptop	Hip-Hop		
+57	6.5	Afternoon	Happy	Laptop	Jazz		
+34	1.6	Afternoon	Happy	Tablet	Pop		
+25	4.2	Night	Happy	Tablet	Pop		
+18	6.6	Morning	Focused	Smart Speaker	Pop		
+22	2.7	Night	Focused	Smartphone	K-Pop		
+29	2.1	Afternoon	Sad	Laptop	Rock		
+38	6.7	Night	Relaxed	Smart Speaker	Jazz		
+23	6.9	Night	Happy	Laptop	Pop		
+52	3.3	Morning	Relaxed	Smartphone	Pop		
+37	3.3	Night	Happy	Smartphone	Pop		
+28	4.3	Night	Focused	Tablet	Pop		
+29	1.4	Evening	Energetic	Tablet	K-Pop		
+17	1.0	Evening	Happy	Smartphone	K-Pop		
+18	3.6	Night	Happy	Smart Speaker	Pop		
+56	1.4	Evening	Relaxed	Laptop	Jazz		
+19	3.4	Evening	Happy	Smart Speaker	K-Pop		
+16	5.9	Evening	Sad	Laptop	Pop		
+19	0.8	Morning	Relaxed	Laptop	Rock		
+25	1.3	Afternoon	Happy	Tablet	K-Pop		
+22	1.1	Afternoon	Focused	Tablet	K-Pop		
+47	7.4	Evening	Happy	Smartphone	K-Pop		
+23	6.2	Night	Happy	Laptop	Rock		
+23	5.6	Afternoon	Relaxed	Laptop	K-Pop		
+59	6.2	Night	Relaxed	Smart Speaker	Classical		
+49	3.7	Night	Happy	Tablet	Jazz		
+38	2.6	Afternoon	Sad	Smart Speaker	Hip-Hop		
+35	2.5	Afternoon	Sad	Laptop	Classical		
+42	2.4	Morning	Relaxed	Smart Speaker	Rock		
+55	3.6	Night	Happy	Tablet	K-Pop		
+44	1.1	Afternoon	Energetic	Smartphone	Hip-Hop		
+36	0.6	Night	Sad	Smart Speaker	Pop		
+41	0.8	Night	Sad	Laptop	Pop		
+47	3.8	Afternoon	Energetic	Smart Speaker	Hip-Hop		
+							
+							
+							
+							

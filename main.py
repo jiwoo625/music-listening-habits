@@ -1,117 +1,75 @@
-import os
-import pandas as pd
-import streamlit as st
-import matplotlib.pyplot as plt
-from sklearn.compose import ColumnTransformer
-from sklearn.preprocessing import OneHotEncoder, StandardScaler
-from sklearn.pipeline import Pipeline
-from sklearn.impute import SimpleImputer
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.linear_model import LogisticRegression
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score, classification_report
+            genre = rng.choice(["발라드", "클래식", "팝"])
+        else:
+            genre = rng.choice(genres)
+        rows.append([time, mood, device, hours, genre])
+    return pd.DataFrame(rows, columns=["감상 시간대", "기분", "사용 기기", "감상 시간", "선호 장르"])
 
-st.set_page_config(page_title="Music Listening Habits Analysis", page_icon="🎵", layout="wide")
-st.title("🎵 Music Listening Habits Analysis")
-st.write("음악 감상 습관 데이터를 분석하고 선호 음악 장르를 예측합니다.")
+df = make_data()
+st.caption("※ 아래 데이터는 실제 조사 결과가 아닌 프로그램 작동을 위한 가상 예시 데이터입니다.")
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-CSV_PATH = os.path.join(BASE_DIR, "music_listening_dataset.csv")
-
-@st.cache_data
-def load_data():
-    return pd.read_csv(CSV_PATH)
-
-try:
-    df = load_data()
-except FileNotFoundError:
-    st.error("CSV 파일을 찾을 수 없습니다. main.py와 CSV 파일을 같은 폴더에 넣어 주세요.")
-    st.stop()
-
-required = ["Age", "Listening_Hours", "Preferred_Time", "Mood", "Device", "Favorite_Genre"]
-missing = [c for c in required if c not in df.columns]
-if missing:
-    st.error("CSV에 필요한 열이 없습니다: " + ", ".join(missing))
-    st.stop()
-
-st.header("1. Dataset Overview")
-st.dataframe(df.head(10), use_container_width=True)
-st.write(f"데이터 크기: {df.shape[0]}행 × {df.shape[1]}열")
 c1, c2, c3 = st.columns(3)
-c1.metric("전체 데이터 수", len(df))
-c2.metric("음악 장르 수", df["Favorite_Genre"].nunique())
-c3.metric("평균 감상 시간", f'{df["Listening_Hours"].mean():.1f}시간')
+c1.metric("분석 데이터 수", f"{len(df)}명")
+c2.metric("평균 감상 시간", f"{df['감상 시간'].mean():.1f}시간")
+c3.metric("가장 많은 선호 장르", df["선호 장르"].mode()[0])
 
-st.header("2. Music Listening Analysis")
+st.subheader("1. 음악 감상 데이터")
+st.dataframe(df.head(20), use_container_width=True)
+
+st.subheader("2. 감상 습관 시각화")
 left, right = st.columns(2)
 with left:
-    st.subheader("선호 음악 장르")
+    st.write("**선호 장르별 인원**")
+    counts = df["선호 장르"].value_counts()
     fig, ax = plt.subplots()
-    df["Favorite_Genre"].value_counts().plot(kind="bar", ax=ax)
-    ax.set_xlabel("Genre"); ax.set_ylabel("Listeners")
-    st.pyplot(fig); plt.close(fig)
+    counts.plot(kind="bar", ax=ax)
+    ax.set_xlabel("선호 장르")
+    ax.set_ylabel("인원")
+    st.pyplot(fig)
+    plt.close(fig)
 with right:
-    st.subheader("장르별 평균 감상 시간")
+    st.write("**시간대별 평균 감상 시간**")
+    avg = df.groupby("감상 시간대")["감상 시간"].mean().reindex(["아침", "오후", "저녁", "밤"])
     fig, ax = plt.subplots()
-    df.groupby("Favorite_Genre")["Listening_Hours"].mean().plot(kind="bar", ax=ax)
-    ax.set_xlabel("Genre"); ax.set_ylabel("Average hours")
-    st.pyplot(fig); plt.close(fig)
+    avg.plot(kind="bar", ax=ax)
+    ax.set_xlabel("감상 시간대")
+    ax.set_ylabel("평균 시간")
+    st.pyplot(fig)
+    plt.close(fig)
 
-left, right = st.columns(2)
-with left:
-    st.subheader("선호 감상 시간대")
-    fig, ax = plt.subplots()
-    df["Preferred_Time"].value_counts().plot(kind="bar", ax=ax)
-    st.pyplot(fig); plt.close(fig)
-with right:
-    st.subheader("주로 사용하는 기기")
-    fig, ax = plt.subplots()
-    df["Device"].value_counts().plot(kind="bar", ax=ax)
-    st.pyplot(fig); plt.close(fig)
-
-st.header("3. Machine Learning")
-features = ["Age", "Listening_Hours", "Preferred_Time", "Mood", "Device"]
-X, y = df[features], df["Favorite_Genre"]
-numeric = ["Age", "Listening_Hours"]
-categorical = ["Preferred_Time", "Mood", "Device"]
-preprocessor = ColumnTransformer([
-    ("num", Pipeline([("imputer", SimpleImputer(strategy="median")), ("scaler", StandardScaler())]), numeric),
-    ("cat", Pipeline([("imputer", SimpleImputer(strategy="most_frequent")), ("onehot", OneHotEncoder(handle_unknown="ignore"))]), categorical)
-])
+st.subheader("3. 머신러닝으로 선호 장르 예측")
+X = pd.get_dummies(df[["감상 시간대", "기분", "사용 기기"]])
+X["감상 시간"] = df["감상 시간"]
+y = df["선호 장르"]
 X_train, X_test, y_train, y_test = train_test_split(
     X, y, test_size=0.25, random_state=42, stratify=y
 )
 models = {
-    "Random Forest": RandomForestClassifier(n_estimators=150, random_state=42),
+    "Random Forest": RandomForestClassifier(n_estimators=100, random_state=42),
     "Logistic Regression": LogisticRegression(max_iter=1000)
 }
-trained, scores = {}, {}
+scores = {}
 for name, model in models.items():
-    pipe = Pipeline([("preprocessor", preprocessor), ("model", model)])
-    pipe.fit(X_train, y_train)
-    trained[name] = pipe
-    scores[name] = accuracy_score(y_test, pipe.predict(X_test))
+    model.fit(X_train, y_train)
+    scores[name] = accuracy_score(y_test, model.predict(X_test))
+st.write("**모델 정확도 비교**")
+st.dataframe(pd.DataFrame({"모델": list(scores.keys()), "정확도": [f"{v:.1%}" for v in scores.values()]}), hide_index=True)
 
-st.subheader("모델 성능 비교")
-st.dataframe(pd.DataFrame({"Model": list(scores), "Accuracy": [round(v, 3) for v in scores.values()]}))
-best_name = max(scores, key=scores.get)
-st.success(f"테스트 데이터에서 더 높은 정확도를 보인 모델: {best_name} ({scores[best_name]:.1%})")
-chosen = st.selectbox("분류 결과를 확인할 모델", list(trained))
-preds = trained[chosen].predict(X_test)
-report = classification_report(y_test, preds, output_dict=True, zero_division=0)
-st.dataframe(pd.DataFrame(report).transpose().round(3))
+st.subheader("4. 나의 음악 취향 예측해 보기")
+a, b, c = st.columns(3)
+with a:
+    selected_time = st.selectbox("주로 듣는 시간대", ["아침", "오후", "저녁", "밤"])
+with b:
+    selected_mood = st.selectbox("음악을 들을 때 기분", ["행복", "차분함", "우울함", "신남"])
+with c:
+    selected_device = st.selectbox("주로 사용하는 기기", ["스마트폰", "컴퓨터", "태블릿"])
+hours = st.slider("하루 평균 음악 감상 시간", 0.5, 8.0, 2.0, 0.5)
+if st.button("선호 장르 예측하기"):
+    sample = pd.DataFrame([[selected_time, selected_mood, selected_device, hours]],
+                          columns=["감상 시간대", "기분", "사용 기기", "감상 시간"])
+    sample_X = pd.get_dummies(sample[["감상 시간대", "기분", "사용 기기"]])
+    sample_X["감상 시간"] = sample["감상 시간"]
+    sample_X = sample_X.reindex(columns=X.columns, fill_value=0)
+    pred = models["Random Forest"].predict(sample_X)[0]
+    st.success(f"예측된 선호 장르는 **{pred}** 입니다.")
 
-st.header("4. Predict Your Favorite Genre")
-with st.form("prediction_form"):
-    age = st.slider("나이", 13, 70, 20)
-    hours = st.slider("하루 평균 음악 감상 시간", 0.0, 12.0, 2.0, 0.5)
-    preferred_time = st.selectbox("주로 음악을 듣는 시간", sorted(df["Preferred_Time"].unique()))
-    mood = st.selectbox("음악을 들을 때의 기분", sorted(df["Mood"].unique()))
-    device = st.selectbox("주로 사용하는 기기", sorted(df["Device"].unique()))
-    submitted = st.form_submit_button("선호 장르 예측")
-if submitted:
-    sample = pd.DataFrame([{"Age": age, "Listening_Hours": hours, "Preferred_Time": preferred_time, "Mood": mood, "Device": device}])
-    result = trained[best_name].predict(sample)[0]
-    st.info(f"예측된 선호 음악 장르: **{result}**")
-
-st.caption("※ CSV는 프로젝트 연습용으로 만든 가상 예시 데이터이며 실제 설문 결과가 아닙니다.")
+st.info("이 프로그램은 CSV 파일을 읽지 않으므로 CSV 열 이름 오류가 발생하지 않습니다.")
